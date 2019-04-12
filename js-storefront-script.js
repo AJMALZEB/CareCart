@@ -602,8 +602,8 @@ function AbandonedCart() {
                 '</div>';
         }
 
-        var popUpHTML = '<style>@media (max-width: 768px) {#cc-atcp-table { width: 55% !important; }} @media (max-width: 480px) {#cc-atcp-table { width: 80% !important; } }</style><div id="cc-atcp-table" class="popup-preview" style="font-family: Open Sans, sans-serif; position: fixed;' +
-            '    top: 0;right: 0;left: 0;bottom: 0;width: 37%;background: #fff;margin: 90px auto;z-index: 99999999;border: 1px solid #808080;' +
+        var popUpHTML = '<style>#cc_f-p-preview-email-placeholder::placeholder{color: #ba9a56;}@media (max-width: 768px) {#cc-atcp-table { width: 55% !important; }} @media (max-width: 480px) {#cc-atcp-table { width: 80% !important; } }</style><div id="cc-atcp-table" class="popup-preview" style="font-family: Open Sans, sans-serif; position: fixed;' +
+            '    top: 0;right: 0;left: 0;bottom: 0;width: 37%;background: #000;margin: 90px auto;z-index: 99999999;border: 2px solid #ba9a56;' +
             '    border-radius: 4px;' +
             '    padding: 15px;' +
             '    box-shadow: 0 0 20px 10px #f5f5f5;' +
@@ -641,7 +641,7 @@ function AbandonedCart() {
             ' style="text-transform: unset;font-family: Open Sans, sans-serif;height: 46px;' +
             '    font-size: 16px;' +
             '    color: #7a8da4;' +
-            '    border: 1px solid #ced9ee;' +
+            '    border: 2px solid #ba9a56;' +
             '    padding: 6px 12px;' +
             '    background-color: #fff;' +
             '    border: 1px solid #c2cad8;' +
