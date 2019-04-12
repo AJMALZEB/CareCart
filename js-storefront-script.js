@@ -644,7 +644,7 @@ function AbandonedCart() {
             '    border: 2px solid #ba9a56;' +
             '    padding: 6px 12px;' +
             '    background-color: #fff;' +
-            '   
+            
             '    border-radius: 4px;' +
             '    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);' +
             '    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);' +
